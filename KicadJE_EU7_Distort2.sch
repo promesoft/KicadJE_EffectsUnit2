@@ -132,7 +132,7 @@ L Device:R R206
 U 1 1 5C78B13F
 P 1900 2225
 F 0 "R206" V 1900 2225 50  0000 C CNN
-F 1 "10k" V 1575 2150 50  0000 C CNN
+F 1 "4k7" V 1700 2225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 2225 50  0001 C CNN
 F 3 "~" H 1900 2225 50  0001 C CNN
 	1    1900 2225
@@ -160,7 +160,7 @@ L Device:R_POT RV201
 U 1 1 5C7A37D8
 P 2250 2225
 F 0 "RV201" V 2450 2300 50  0000 R CNN
-F 1 "20k_O6" V 2450 2025 50  0000 R CNN
+F 1 "20k_Out1" V 2450 2025 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2250 2225 50  0001 C CNN
 F 3 "~" H 2250 2225 50  0001 C CNN
 	1    2250 2225
@@ -195,12 +195,12 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0202
 U 1 1 5C3F858C
-P 2750 1200
-F 0 "#FLG0202" H 2750 1275 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 1374 50  0000 C CNN
-F 2 "" H 2750 1200 50  0001 C CNN
-F 3 "~" H 2750 1200 50  0001 C CNN
-	1    2750 1200
+P 3475 1300
+F 0 "#FLG0202" H 3475 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 3475 1474 50  0000 C CNN
+F 2 "" H 3475 1300 50  0001 C CNN
+F 3 "~" H 3475 1300 50  0001 C CNN
+	1    3475 1300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -241,12 +241,12 @@ $EndComp
 $Comp
 L power:GND #PWR0201
 U 1 1 5C409296
-P 3900 1300
-F 0 "#PWR0201" H 3900 1050 50  0001 C CNN
-F 1 "GND" H 3905 1127 50  0000 C CNN
-F 2 "" H 3900 1300 50  0001 C CNN
-F 3 "" H 3900 1300 50  0001 C CNN
-	1    3900 1300
+P 3625 1300
+F 0 "#PWR0201" H 3625 1050 50  0001 C CNN
+F 1 "GND" H 3630 1127 50  0000 C CNN
+F 2 "" H 3625 1300 50  0001 C CNN
+F 3 "" H 3625 1300 50  0001 C CNN
+	1    3625 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -388,10 +388,6 @@ Wire Notes Line
 	6250 500  6250 1800
 Wire Notes Line
 	600  500  6250 500 
-Text GLabel 3700 1600 0    50   Input ~ 0
--12V
-Text GLabel 3675 1000 0    50   Input ~ 0
-+12V
 $Comp
 L Device:C C207
 U 1 1 5D143DE5
@@ -487,7 +483,7 @@ L Device:R R213
 U 1 1 5CE1CD36
 P 2725 4550
 F 0 "R213" V 2725 4550 50  0000 C CNN
-F 1 "10k" V 2609 4550 50  0000 C CNN
+F 1 "4k7" V 2609 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2655 4550 50  0001 C CNN
 F 3 "~" H 2725 4550 50  0001 C CNN
 	1    2725 4550
@@ -970,8 +966,6 @@ F 3 "" H 3050 5450 50  0001 C CNN
 	1    3050 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3275 1300 3275 1200
 $Comp
 L Device:R R223
 U 1 1 5CCAB2D3
@@ -988,19 +982,11 @@ Wire Notes Line
 Wire Notes Line
 	600  500  600  1800
 Wire Wire Line
-	2750 1200 3275 1200
-Wire Wire Line
 	2800 2775 2875 2775
 Wire Wire Line
-	2050 2350 2050 2475
+	2050 2350 2050 2400
 Wire Wire Line
 	2950 5450 3050 5450
-Wire Wire Line
-	3675 1000 4950 1000
-Wire Wire Line
-	3275 1300 5000 1300
-Wire Wire Line
-	3700 1600 5150 1600
 $Comp
 L power:GND #PWR0202
 U 1 1 5CF4727D
@@ -1053,8 +1039,6 @@ Wire Wire Line
 	1850 4550 2025 4550
 Wire Wire Line
 	2025 4550 2025 4750
-Wire Wire Line
-	2025 4550 2575 4550
 Connection ~ 2025 4550
 Text GLabel 925  4850 0    50   Input ~ 0
 In2
@@ -1159,8 +1143,6 @@ F 3 "~" H 1375 2775 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1125 2775 1225 2775
-Wire Wire Line
 	1525 2775 1550 2775
 Wire Wire Line
 	1550 2775 1550 2875
@@ -1192,7 +1174,7 @@ Wire Wire Line
 Text GLabel 10300 3900 0    50   Input ~ 0
 OutFinal
 Connection ~ 10450 3400
-Text GLabel 3475 6675 2    50   Input ~ 0
+Text GLabel 4425 6575 2    50   Input ~ 0
 OutFinal
 Connection ~ 3375 7000
 Connection ~ 3050 5450
@@ -1347,8 +1329,6 @@ $EndComp
 Wire Wire Line
 	2750 4175 3125 4175
 Wire Wire Line
-	2425 3975 2650 3975
-Wire Wire Line
 	2950 3975 3125 3975
 Wire Wire Line
 	1200 6300 1275 6300
@@ -1381,4 +1361,99 @@ F 3 "~" H 2625 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2475 2500 2450 2500
+$Comp
+L Device:R_POT RV203
+U 1 1 5D2D1445
+P 2350 4550
+F 0 "RV203" V 2550 4625 50  0000 R CNN
+F 1 "20k_Out2" V 2550 4350 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2350 4550 50  0001 C CNN
+F 3 "~" H 2350 4550 50  0001 C CNN
+	1    2350 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2025 4550 2200 4550
+Wire Wire Line
+	2500 4550 2550 4550
+Wire Wire Line
+	2550 4550 2550 4400
+Wire Wire Line
+	2350 4400 2550 4400
+Connection ~ 2550 4550
+Wire Wire Line
+	2550 4550 2575 4550
+$Comp
+L Amplifier_Operational:TL072 U203
+U 1 1 5D2F765E
+P 3775 6575
+F 0 "U203" H 3900 6725 50  0000 C CNN
+F 1 "TL072" H 3775 6800 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3775 6575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3775 6575 50  0001 C CNN
+	1    3775 6575
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3475 6475 3375 6475
+Wire Wire Line
+	3375 6475 3375 6275
+Wire Wire Line
+	3375 6275 4200 6275
+Wire Wire Line
+	4200 6275 4200 6575
+Wire Wire Line
+	4200 6575 4075 6575
+Wire Wire Line
+	4425 6575 4200 6575
+Connection ~ 4200 6575
+Connection ~ 2050 2400
+Wire Wire Line
+	2050 2400 2050 2475
+Wire Wire Line
+	3750 1600 3825 1600
+Connection ~ 3825 1600
+Wire Wire Line
+	3825 1600 3900 1600
+Connection ~ 3900 1600
+Wire Wire Line
+	3900 1600 4100 1600
+Connection ~ 4100 1600
+Wire Wire Line
+	4100 1600 4275 1600
+Connection ~ 4275 1600
+Wire Wire Line
+	4275 1600 4500 1600
+Connection ~ 4500 1600
+Wire Wire Line
+	4500 1600 4700 1600
+Connection ~ 4700 1600
+Wire Wire Line
+	4700 1600 5150 1600
+Wire Wire Line
+	3750 1000 3825 1000
+Connection ~ 3825 1000
+Wire Wire Line
+	3825 1000 4100 1000
+Connection ~ 4100 1000
+Wire Wire Line
+	4100 1000 4275 1000
+Connection ~ 4275 1000
+Wire Wire Line
+	4275 1000 4500 1000
+Connection ~ 4500 1000
+Wire Wire Line
+	4500 1000 4700 1000
+Connection ~ 4700 1000
+Wire Wire Line
+	4700 1000 4950 1000
+Wire Wire Line
+	1000 2775 1225 2775
+Wire Wire Line
+	2400 3975 2650 3975
+Connection ~ 3625 1300
+Wire Wire Line
+	3625 1300 5000 1300
+Wire Wire Line
+	3475 1300 3625 1300
 $EndSCHEMATC
