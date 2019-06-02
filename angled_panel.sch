@@ -321,7 +321,7 @@ AR Path="/5D4DB58B/5D536513" Ref="J?"  Part="1"
 AR Path="/5D4DB615/5D536513" Ref="J?"  Part="1" 
 F 0 "J?" H 4747 3532 50  0000 R CNN
 F 1 "Conn_01x09_Male" H 4747 3623 50  0000 R CNN
-F 2 "" H 4775 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4775 3600 50  0001 C CNN
 F 3 "~" H 4775 3600 50  0001 C CNN
 	1    4775 3600
 	-1   0    0    1   
@@ -334,7 +334,7 @@ AR Path="/5D4DB58B/5D536526" Ref="J?"  Part="1"
 AR Path="/5D4DB615/5D536526" Ref="J?"  Part="1" 
 F 0 "J?" H 4747 4532 50  0000 R CNN
 F 1 "Conn_01x09_Male" H 4747 4623 50  0000 R CNN
-F 2 "" H 4775 4600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4775 4600 50  0001 C CNN
 F 3 "~" H 4775 4600 50  0001 C CNN
 	1    4775 4600
 	-1   0    0    1   
