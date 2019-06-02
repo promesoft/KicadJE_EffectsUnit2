@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 39)
+    (drawings 35)
     (tracks 586)
     (zones 0)
     (modules 70)
@@ -3134,15 +3134,11 @@
     (pad 1 thru_hole circle (at 1.166726 1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 111 58.5) (end 110 58.5) (layer Edge.Cuts) (width 1) (tstamp 5CF470F6))
-  (gr_line (start 110 60) (end 110 58.5) (layer Edge.Cuts) (width 1) (tstamp 5CF470F4))
-  (gr_line (start 111 142.5) (end 110 142.5) (layer Edge.Cuts) (width 1) (tstamp 5CF46E9B))
-  (gr_line (start 110 142.5) (end 110 141) (layer Edge.Cuts) (width 1) (tstamp 5CF46E99))
-  (gr_line (start 100 61) (end 100 60) (layer Edge.Cuts) (width 1) (tstamp 5CF45DF5))
+  (gr_line (start 100 61) (end 100 58.5) (layer Edge.Cuts) (width 1) (tstamp 5CF45DF5))
   (gr_line (start 100 61) (end 110 61) (layer Edge.Cuts) (width 1) (tstamp 5CF45DF3))
-  (gr_line (start 110 60) (end 100 60) (layer Edge.Cuts) (width 1) (tstamp 5CF45DF2))
-  (gr_line (start 100 141) (end 100 140) (layer Edge.Cuts) (width 1) (tstamp 5CF45DE3))
-  (gr_line (start 100 141) (end 110 141) (layer Edge.Cuts) (width 1))
+  (gr_line (start 111 58.5) (end 100 58.5) (layer Edge.Cuts) (width 1) (tstamp 5CF45DF2))
+  (gr_line (start 100 142.5) (end 100 140) (layer Edge.Cuts) (width 1) (tstamp 5CF45DE3))
+  (gr_line (start 100 142.5) (end 111 142.5) (layer Edge.Cuts) (width 1))
   (gr_line (start 110 140) (end 100 140) (layer Edge.Cuts) (width 1))
   (gr_line (start 129.5 60) (end 129.5 140) (layer Edge.Cuts) (width 1) (tstamp 5CF45DD1))
   (gr_line (start 129.5 140) (end 130.5 140) (layer Edge.Cuts) (width 1) (tstamp 5CF45DD0))

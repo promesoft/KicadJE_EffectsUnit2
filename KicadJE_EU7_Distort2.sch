@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:KicadJE_EffectsUnit2-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title "Effects Unit 2"
 Date "2019-05-31"
 Rev "Rev B"
@@ -1473,10 +1474,10 @@ Connection ~ 4700 1300
 Wire Wire Line
 	4700 1300 5000 1300
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D215
 U 1 1 5D44A582
 P 9875 1350
-F 0 "D?" V 9829 1429 50  0000 L CNN
+F 0 "D215" V 9829 1429 50  0000 L CNN
 F 1 "D_Zener" V 9920 1429 50  0000 L CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9875 1350 50  0001 C CNN
 F 3 "~" H 9875 1350 50  0001 C CNN
@@ -1487,10 +1488,10 @@ Connection ~ 9875 1200
 Wire Wire Line
 	9875 1200 10000 1200
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D216
 U 1 1 5D44B671
 P 9875 1800
-F 0 "D?" V 9829 1879 50  0000 L CNN
+F 0 "D216" V 9829 1879 50  0000 L CNN
 F 1 "D_Zener" V 9920 1879 50  0000 L CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9875 1800 50  0001 C CNN
 F 3 "~" H 9875 1800 50  0001 C CNN
