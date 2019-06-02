@@ -308,11 +308,11 @@ Wire Wire Line
 Wire Wire Line
 	3600 4450 3700 4450
 Wire Wire Line
-	4350 1150 4775 1150
+	4350 1150 4575 1150
 Wire Wire Line
-	4350 1750 4775 1750
+	4350 1750 4575 1750
 Wire Wire Line
-	4350 1450 4775 1450
+	4350 1450 4575 1450
 $Comp
 L Connector:Conn_01x09_Male J301
 U 1 1 5D536513
@@ -425,4 +425,39 @@ Text Label 4375 3500 0    50   ~ 0
 +12v
 Text Label 4375 4500 0    50   ~ 0
 +12v
+$Comp
+L Device:C C?
+U 1 1 5D58C05E
+P 4575 1300
+AR Path="/5CF11B19/5D58C05E" Ref="C?"  Part="1" 
+AR Path="/5D4DB58B/5D58C05E" Ref="C302"  Part="1" 
+F 0 "C302" H 4375 1225 50  0000 L CNN
+F 1 "100n" H 4525 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4613 1150 50  0001 C CNN
+F 3 "~" H 4575 1300 50  0001 C CNN
+	1    4575 1300
+	-1   0    0    1   
+$EndComp
+Connection ~ 4575 1450
+Wire Wire Line
+	4575 1450 4775 1450
+Connection ~ 4575 1150
+Wire Wire Line
+	4575 1150 4775 1150
+$Comp
+L Device:C C?
+U 1 1 5D58C3F4
+P 4575 1600
+AR Path="/5CF11B19/5D58C3F4" Ref="C?"  Part="1" 
+AR Path="/5D4DB58B/5D58C3F4" Ref="C305"  Part="1" 
+F 0 "C305" H 4375 1700 50  0000 L CNN
+F 1 "100n" H 4375 1825 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4613 1450 50  0001 C CNN
+F 3 "~" H 4575 1600 50  0001 C CNN
+	1    4575 1600
+	-1   0    0    1   
+$EndComp
+Connection ~ 4575 1750
+Wire Wire Line
+	4575 1750 4775 1750
 $EndSCHEMATC
