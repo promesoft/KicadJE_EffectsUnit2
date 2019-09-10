@@ -921,8 +921,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 3600 3900 3600
 Wire Wire Line
-	7000 3600 6550 3600
-Wire Wire Line
 	7000 3400 6850 3400
 Wire Wire Line
 	6850 3400 6850 3100
@@ -939,7 +937,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 4300 7450 4300
 Wire Wire Line
-	4750 4300 4750 4700
+	4750 4300 4750 4600
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5D84994A
@@ -965,46 +963,42 @@ Text GLabel 7950 4700 2    50   Input ~ 0
 Out2Final
 Text GLabel 7950 3500 2    50   Input ~ 0
 Out1Final
-Text GLabel 4700 3875 3    50   Input ~ 0
+Text GLabel 6275 4000 3    50   Input ~ 0
 Out1Dist
-Text GLabel 4750 5200 3    50   Input ~ 0
+Text GLabel 6250 5100 3    50   Input ~ 0
 Out2Dist
 $Comp
 L Device:R R?
 U 1 1 5D8602ED
-P 4700 3700
+P 6275 3825
 AR Path="/5CF11B19/5D8602ED" Ref="R?"  Part="1" 
 AR Path="/5D4DB615/5D8602ED" Ref="R?"  Part="1" 
-F 0 "R?" V 4800 3675 50  0000 C CNN
-F 1 "1k" V 4625 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 3700 50  0001 C CNN
-F 3 "~" H 4700 3700 50  0001 C CNN
-	1    4700 3700
+F 0 "R?" V 6375 3800 50  0000 C CNN
+F 1 "1k" V 6200 3925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6205 3825 50  0001 C CNN
+F 3 "~" H 6275 3825 50  0001 C CNN
+	1    6275 3825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 3550 4700 3500
-Connection ~ 4700 3500
-Wire Wire Line
-	4700 3850 4700 3875
+	6275 3975 6275 4000
 $Comp
 L Device:R R?
 U 1 1 5D869F74
-P 4750 4975
+P 6250 4875
 AR Path="/5CF11B19/5D869F74" Ref="R?"  Part="1" 
 AR Path="/5D4DB615/5D869F74" Ref="R?"  Part="1" 
-F 0 "R?" V 4850 4950 50  0000 C CNN
-F 1 "1k" V 4675 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 4975 50  0001 C CNN
-F 3 "~" H 4750 4975 50  0001 C CNN
-	1    4750 4975
+F 0 "R?" V 6350 4850 50  0000 C CNN
+F 1 "1k" V 6175 4975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6180 4875 50  0001 C CNN
+F 3 "~" H 6250 4875 50  0001 C CNN
+	1    6250 4875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 4825 4750 4700
-Connection ~ 4750 4700
+	6250 4725 6250 4600
 Wire Wire Line
-	4750 5125 4750 5200
+	6250 5025 6250 5100
 $Comp
 L Device:C C?
 U 1 1 5D8781E6
@@ -1073,4 +1067,152 @@ F 3 "~" H 10000 5400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10150 5400 10325 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5D88CF5A
+P 6950 5250
+AR Path="/5CF11B19/5D88CF5A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB58B/5D88CF5A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB615/5D88CF5A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 5000 50  0001 C CNN
+F 1 "GND" H 6955 5077 50  0000 C CNN
+F 2 "" H 6950 5250 50  0001 C CNN
+F 3 "" H 6950 5250 50  0001 C CNN
+	1    6950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D8988E0
+P 6950 5025
+AR Path="/5CF11B19/5D8988E0" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5D8988E0" Ref="R?"  Part="1" 
+F 0 "R?" V 6950 5025 50  0000 C CNN
+F 1 "0R" V 6875 5125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6880 5025 50  0001 C CNN
+F 3 "~" H 6950 5025 50  0001 C CNN
+	1    6950 5025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 5250 6950 5175
+Wire Wire Line
+	6950 4875 6950 4800
+Wire Wire Line
+	6950 4800 7000 4800
+$Comp
+L Device:R R?
+U 1 1 5D8A3002
+P 6725 4800
+AR Path="/5CF11B19/5D8A3002" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5D8A3002" Ref="R?"  Part="1" 
+F 0 "R?" V 6725 4800 50  0000 C CNN
+F 1 "Open" V 6650 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6655 4800 50  0001 C CNN
+F 3 "~" H 6725 4800 50  0001 C CNN
+	1    6725 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6875 4800 6950 4800
+Connection ~ 6950 4800
+$Comp
+L power:+12V #PWR?
+U 1 1 5D8A8AB9
+P 6525 4800
+F 0 "#PWR?" H 6525 4650 50  0001 C CNN
+F 1 "+12V" H 6540 4973 50  0000 C CNN
+F 2 "" H 6525 4800 50  0001 C CNN
+F 3 "" H 6525 4800 50  0001 C CNN
+	1    6525 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 4800 6525 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5D8B385E
+P 3850 5250
+AR Path="/5CF11B19/5D8B385E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB58B/5D8B385E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB615/5D8B385E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 5000 50  0001 C CNN
+F 1 "GND" H 3855 5077 50  0000 C CNN
+F 2 "" H 3850 5250 50  0001 C CNN
+F 3 "" H 3850 5250 50  0001 C CNN
+	1    3850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D8B3868
+P 3850 5025
+AR Path="/5CF11B19/5D8B3868" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5D8B3868" Ref="R?"  Part="1" 
+F 0 "R?" V 3850 5025 50  0000 C CNN
+F 1 "0R" V 3775 5125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3780 5025 50  0001 C CNN
+F 3 "~" H 3850 5025 50  0001 C CNN
+	1    3850 5025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 5250 3850 5175
+Wire Wire Line
+	3850 4875 3850 4800
+Wire Wire Line
+	3850 4800 3900 4800
+$Comp
+L Device:R R?
+U 1 1 5D8B3875
+P 3625 4800
+AR Path="/5CF11B19/5D8B3875" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5D8B3875" Ref="R?"  Part="1" 
+F 0 "R?" V 3625 4800 50  0000 C CNN
+F 1 "Open" V 3550 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3555 4800 50  0001 C CNN
+F 3 "~" H 3625 4800 50  0001 C CNN
+	1    3625 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3775 4800 3850 4800
+Connection ~ 3850 4800
+$Comp
+L power:+12V #PWR?
+U 1 1 5D8B3881
+P 3425 4800
+F 0 "#PWR?" H 3425 4650 50  0001 C CNN
+F 1 "+12V" H 3440 4973 50  0000 C CNN
+F 2 "" H 3425 4800 50  0001 C CNN
+F 3 "" H 3425 4800 50  0001 C CNN
+	1    3425 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 4800 3425 4800
+Wire Wire Line
+	4700 3600 4700 3500
+Wire Wire Line
+	4700 3600 6275 3600
+Connection ~ 4700 3500
+Wire Wire Line
+	6275 3600 6275 3675
+Connection ~ 6275 3600
+Wire Wire Line
+	6275 3600 7000 3600
+Wire Wire Line
+	6600 4600 6250 4600
+Connection ~ 4750 4600
+Wire Wire Line
+	4750 4600 4750 4700
+Connection ~ 6250 4600
+Wire Wire Line
+	6250 4600 4750 4600
+Wire Wire Line
+	7750 4700 7950 4700
+Connection ~ 7750 4700
+Wire Wire Line
+	7750 3500 7950 3500
+Connection ~ 7750 3500
 $EndSCHEMATC
