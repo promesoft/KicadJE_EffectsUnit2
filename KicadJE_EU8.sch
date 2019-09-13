@@ -859,14 +859,14 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5D805435
-P 7825 3850
+P 7750 3625
 AR Path="/5CF11B19/5D805435" Ref="R?"  Part="1" 
 AR Path="/5D4DB615/5D805435" Ref="R?"  Part="1" 
-F 0 "R?" V 7825 3850 50  0000 C CNN
-F 1 "10k" V 7750 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7755 3850 50  0001 C CNN
-F 3 "~" H 7825 3850 50  0001 C CNN
-	1    7825 3850
+F 0 "R?" V 7750 3625 50  0000 C CNN
+F 1 "10k" V 7675 3725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7680 3625 50  0001 C CNN
+F 3 "~" H 7750 3625 50  0001 C CNN
+	1    7750 3625
 	0    1    1    0   
 $EndComp
 $Comp
@@ -886,10 +886,6 @@ Wire Wire Line
 	5025 4250 5275 4250
 Wire Wire Line
 	7425 4150 7475 4150
-Wire Wire Line
-	7475 4150 7475 3850
-Wire Wire Line
-	7475 3850 7675 3850
 Connection ~ 7475 4150
 Wire Wire Line
 	7475 4150 7525 4150
@@ -916,10 +912,6 @@ Wire Wire Line
 	8325 1650 8175 1650
 Wire Wire Line
 	8125 4250 8275 4250
-Wire Wire Line
-	8275 4250 8275 3850
-Wire Wire Line
-	8275 3850 7975 3850
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5D84994A
@@ -941,7 +933,7 @@ Wire Wire Line
 	5900 7275 5900 6925
 Connection ~ 5900 7275
 Connection ~ 5900 6925
-Text GLabel 8775 4250 2    50   Input ~ 0
+Text GLabel 8975 4250 2    50   Input ~ 0
 Out2Final
 Text GLabel 8525 1650 2    50   Input ~ 0
 Out1Final
@@ -1346,8 +1338,6 @@ Wire Wire Line
 	8275 4975 8275 4875
 Connection ~ 8450 4250
 Wire Wire Line
-	8450 4250 8775 4250
-Wire Wire Line
 	7475 4725 7475 4975
 Wire Wire Line
 	7475 4975 8275 4975
@@ -1369,16 +1359,37 @@ F 3 "~" H 4775 3825 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4925 3825 4975 3825
-Wire Wire Line
-	7825 3675 7600 3675
-Wire Wire Line
-	7825 3575 7600 3575
-Wire Wire Line
-	7825 3475 7600 3475
-Text HLabel 7825 3675 2    50   Input ~ 0
+Text HLabel 8200 3625 1    50   Input ~ 0
 POT4_H
-Text HLabel 7825 3575 2    50   Input ~ 0
+Text HLabel 8100 3625 1    50   Input ~ 0
 POT4_C
-Text HLabel 7825 3475 2    50   Input ~ 0
+Text HLabel 8000 3625 1    50   Input ~ 0
 POT4_L
+Wire Wire Line
+	8275 3625 8275 4250
+Wire Wire Line
+	7475 3625 7600 3625
+Wire Wire Line
+	7475 3625 7475 4150
+$Comp
+L Device:R R?
+U 1 1 5D965CBE
+P 8725 4250
+AR Path="/5CF11B19/5D965CBE" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5D965CBE" Ref="R?"  Part="1" 
+F 0 "R?" V 8825 4225 50  0000 C CNN
+F 1 "1k" V 8650 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8655 4250 50  0001 C CNN
+F 3 "~" H 8725 4250 50  0001 C CNN
+	1    8725 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 4250 8575 4250
+Wire Wire Line
+	8875 4250 8975 4250
+Wire Wire Line
+	8100 3625 8275 3625
+Wire Wire Line
+	8000 3625 7900 3625
 $EndSCHEMATC
