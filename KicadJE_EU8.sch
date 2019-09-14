@@ -603,9 +603,9 @@ F 3 "" H 5900 7475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5525 6625 0    50   Input ~ 0
-Out2Dist
+Out2_Dist
 Text GLabel 5525 6225 0    50   Input ~ 0
-Out1Dist
+Out1_Dist
 $Comp
 L power:GND #PWR?
 U 1 1 5D799544
@@ -649,9 +649,9 @@ Connection ~ 4425 7000
 Wire Wire Line
 	4425 7000 4475 7000
 Text GLabel 3275 6550 0    50   Input ~ 0
-In1
+In_1
 Text GLabel 3275 7000 0    50   Input ~ 0
-In2
+In_2
 Wire Wire Line
 	3275 7000 3425 7000
 Wire Wire Line
@@ -706,7 +706,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 6525 5900 6925
 Text GLabel 5525 7375 0    50   Input ~ 0
-Out2Final
+Out2_Final
 Connection ~ 5900 6525
 $Comp
 L Device:D_Zener D?
@@ -804,9 +804,9 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7825 4550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Text GLabel 3950 2450 0    50   Input ~ 0
-In1
+In_1
 Text GLabel 3925 4450 0    50   Input ~ 0
-In2
+In_2
 $Comp
 L Device:R R?
 U 1 1 5D7F1B15
@@ -922,7 +922,7 @@ F 3 "~" H 6250 7025 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 5525 7025 0    50   Input ~ 0
-Out1Final
+Out1_Final
 Wire Wire Line
 	6050 6925 5900 6925
 Wire Wire Line
@@ -930,13 +930,13 @@ Wire Wire Line
 Connection ~ 5900 7275
 Connection ~ 5900 6925
 Text GLabel 8975 4550 2    50   Input ~ 0
-Out2Final
+Out2_Final
 Text GLabel 9675 2350 2    50   Input ~ 0
-Out1Final
+Out1_Final
 Text GLabel 6825 2850 3    50   Input ~ 0
-Out1Dist
+Out1_Dist
 Text GLabel 6775 4950 3    50   Input ~ 0
-Out2Dist
+Out2_Dist
 $Comp
 L Device:R R?
 U 1 1 5D8602ED
