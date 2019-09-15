@@ -247,29 +247,29 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 5D517B60
-P 4750 2350
+P 7850 2350
 AR Path="/5CF11B19/5D517B60" Ref="U?"  Part="3" 
 AR Path="/5D4DB58B/5D517B60" Ref="U?"  Part="3" 
 AR Path="/5D4DB615/5D517B60" Ref="U401"  Part="1" 
-F 0 "U401" H 4675 2600 50  0000 C CNN
-F 1 "TL072" H 4850 2500 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 4750 2350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4750 2350 50  0001 C CNN
-	1    4750 2350
+F 0 "U401" H 7775 2600 50  0000 C CNN
+F 1 "TL072" H 7950 2500 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 7850 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7850 2350 50  0001 C CNN
+	1    7850 2350
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 2 1 5D51924F
-P 7850 2350
+P 4750 2350
 AR Path="/5CF11B19/5D51924F" Ref="U?"  Part="3" 
 AR Path="/5D4DB58B/5D51924F" Ref="U?"  Part="3" 
 AR Path="/5D4DB615/5D51924F" Ref="U401"  Part="2" 
-F 0 "U401" H 7825 2650 50  0000 C CNN
-F 1 "TL072" H 7925 2575 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 7850 2350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7850 2350 50  0001 C CNN
-	2    7850 2350
+F 0 "U401" H 4725 2650 50  0000 C CNN
+F 1 "TL072" H 4825 2575 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 4750 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4750 2350 50  0001 C CNN
+	2    4750 2350
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -778,29 +778,29 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 5D79C6D8
-P 4725 4550
+P 7825 4550
 AR Path="/5CF11B19/5D79C6D8" Ref="U?"  Part="3" 
 AR Path="/5D4DB58B/5D79C6D8" Ref="U?"  Part="3" 
 AR Path="/5D4DB615/5D79C6D8" Ref="U402"  Part="1" 
-F 0 "U402" H 4650 4800 50  0000 C CNN
-F 1 "TL072" H 4825 4700 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 4725 4550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4725 4550 50  0001 C CNN
-	1    4725 4550
+F 0 "U402" H 7750 4800 50  0000 C CNN
+F 1 "TL072" H 7925 4700 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 7825 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7825 4550 50  0001 C CNN
+	1    7825 4550
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 2 1 5D79C6E2
-P 7825 4550
+P 4725 4550
 AR Path="/5CF11B19/5D79C6E2" Ref="U?"  Part="3" 
 AR Path="/5D4DB58B/5D79C6E2" Ref="U?"  Part="3" 
 AR Path="/5D4DB615/5D79C6E2" Ref="U402"  Part="2" 
-F 0 "U402" H 7800 4850 50  0000 C CNN
-F 1 "TL072" H 7900 4775 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 7825 4550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7825 4550 50  0001 C CNN
-	2    7825 4550
+F 0 "U402" H 4700 4850 50  0000 C CNN
+F 1 "TL072" H 4800 4775 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 4725 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4725 4550 50  0001 C CNN
+	2    4725 4550
 	1    0    0    1   
 $EndComp
 Text GLabel 3950 2450 0    50   Input ~ 0
