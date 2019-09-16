@@ -2,7 +2,7 @@
 Distortion test base
 
 # Purpose
-Use for Distortion Effects unit
+Use for Distortion Effects unit and Distortion pedal
 
 # Status - Preliminary SCH/PCB In the mail
 ## Initial 
