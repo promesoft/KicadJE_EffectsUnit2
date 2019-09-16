@@ -41,7 +41,8 @@ Use for Distortion Effects unit
 
 ![](KicadJE_EffectsUnit2_Top1.png)
 
-
+![](KicadJE_EffectsUnit2_Sch1.png)
+![](KicadJE_EffectsUnit2_Sch2.png)
 
 # Other components
 ![](stm32f103c8cb-pinlayout-wp01.jpg)
