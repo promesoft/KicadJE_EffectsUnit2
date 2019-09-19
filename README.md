@@ -10,8 +10,8 @@ Use for Distortion Effects unit and Distortion pedal
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   | |
-|  | produced | No |
+| production  |   | Initiated |
+|  | produced | Pending |
 |  | delivered |  |
 ## Preliminary validation
 | Test  | Detail | Status |
