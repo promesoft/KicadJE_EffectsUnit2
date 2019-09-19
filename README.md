@@ -45,5 +45,4 @@ Use for Distortion Effects unit and Distortion pedal
 ![](KicadJE_EffectsUnit2_Sch2.png)
 
 # Other components
-![](stm32f103c8cb-pinlayout-wp01.jpg)
-![]
+None
