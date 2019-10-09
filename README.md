@@ -4,7 +4,7 @@ Distortion test base
 # Purpose
 Use for Distortion Effects unit and Distortion pedal
 
-# Status - Preliminary SCH/PCB In the mail
+# Status - Preliminary SCH/PCB Mounted
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -12,7 +12,7 @@ Use for Distortion Effects unit and Distortion pedal
 | | gerber | OK |
 | production  |   | done |
 |  | produced | done |
-|  | delivered | on the mail |
+|  | delivered | delivered |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
