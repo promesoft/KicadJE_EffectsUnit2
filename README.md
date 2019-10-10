@@ -18,8 +18,8 @@ Use for Distortion Effects unit and Distortion pedal
 | ------------- | ------------- | ------------- |
 | Initial Inspection | |  |
 | Initial Technical Test |  |  |
-| Initial Product Test |   |  |
-| Initial Product Test |   |  |
+| Initial Product Test | EU7  | Working - but has some oscillation in some config |
+| Initial Product Test | EU8  |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
