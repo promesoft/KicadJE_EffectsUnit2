@@ -16,9 +16,9 @@ Use for Distortion Effects unit and Distortion pedal
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
+| Initial Inspection | | OK |
 | Initial Technical Test |  |  |
-| Initial Product Test | EU7  | Working - but has some oscillation in some config |
+| Initial Product Test | EU7  | Working - but has some oscillation in some config - issues with DC coupling around the circuit and output |
 | Initial Product Test | EU8  |  |
 
 ## Secondary validation
