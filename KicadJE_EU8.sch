@@ -897,7 +897,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2450 4050 2450
 Wire Wire Line
-	4350 2450 4450 2450
+	4350 2450 4400 2450
 Wire Wire Line
 	7550 2250 7400 2250
 Wire Wire Line
@@ -1168,8 +1168,6 @@ Wire Wire Line
 	6825 2450 6825 2525
 Connection ~ 6825 2450
 Wire Wire Line
-	6825 2450 7200 2450
-Wire Wire Line
 	7125 4450 6775 4450
 Connection ~ 5275 4450
 Wire Wire Line
@@ -1414,7 +1412,7 @@ F 3 "~" H 7350 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7500 2450 7550 2450
+	7500 2450 7525 2450
 $Comp
 L Device:R R?
 U 1 1 5D9BFBEE
@@ -1857,4 +1855,74 @@ Wire Wire Line
 Wire Wire Line
 	3850 4125 4150 4125
 Connection ~ 4150 4125
+$Comp
+L Device:R R?
+U 1 1 5DEDB8EC
+P 4400 2725
+AR Path="/5CF11B19/5DEDB8EC" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5DEDB8EC" Ref="R?"  Part="1" 
+F 0 "R?" V 4500 2700 50  0000 C CNN
+F 1 "100k" V 4325 2825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 2725 50  0001 C CNN
+F 3 "~" H 4400 2725 50  0001 C CNN
+	1    4400 2725
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEDC185
+P 4400 2975
+AR Path="/5CF11B19/5DEDC185" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB58B/5DEDC185" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB615/5DEDC185" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 2725 50  0001 C CNN
+F 1 "GND" H 4405 2802 50  0000 C CNN
+F 2 "" H 4400 2975 50  0001 C CNN
+F 3 "" H 4400 2975 50  0001 C CNN
+	1    4400 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2975 4400 2875
+Wire Wire Line
+	4400 2575 4400 2450
+Connection ~ 4400 2450
+Wire Wire Line
+	4400 2450 4450 2450
+$Comp
+L Device:R R?
+U 1 1 5DEF391C
+P 7525 2675
+AR Path="/5CF11B19/5DEF391C" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5DEF391C" Ref="R?"  Part="1" 
+F 0 "R?" V 7625 2650 50  0000 C CNN
+F 1 "100k" V 7450 2775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7455 2675 50  0001 C CNN
+F 3 "~" H 7525 2675 50  0001 C CNN
+	1    7525 2675
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEF3926
+P 7525 2925
+AR Path="/5CF11B19/5DEF3926" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB58B/5DEF3926" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB615/5DEF3926" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7525 2675 50  0001 C CNN
+F 1 "GND" H 7530 2752 50  0000 C CNN
+F 2 "" H 7525 2925 50  0001 C CNN
+F 3 "" H 7525 2925 50  0001 C CNN
+	1    7525 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7525 2925 7525 2825
+Wire Wire Line
+	7525 2525 7525 2450
+Connection ~ 7525 2450
+Wire Wire Line
+	7525 2450 7550 2450
+Wire Wire Line
+	6825 2450 7200 2450
 $EndSCHEMATC
